@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="./assets/library_icon.png" alt="">
+                        <a href="">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="box-p1 common">Create your first playlist</div>
+                        <div class="box-p2 common">It's easy, we'll help you</div>
+                        <button class="badge ">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <div class="box-p1 common">Let's find some podcast to follow</div>
+                        <div class="box-p2 common">We'll keep you updated on new eposides</div>
+                        <button class="badge ">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="arrow ">
+                    <a   href="#"><img src="./assets/backward_icon.png" alt=""></a>
+                    <a href="#"><img src="./assets/forward_icon.png" alt=""></a>
+                </div>
+                <div class="user">
+                    <button class="badge navitem" style="cursor: pointer;">Explore Premium</button>
+                    <button class="badge navitem dark-badge"><i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i class="fa-solid fa-user navitem" style="cursor: pointer;"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="holders">
+                    <button id="special">All</button>
+                    <button>Music</button>
+                    <button>Podcast</button>
+                </div>
+                <div class="container">
+                    <div class="album-group">
+                        <div class="album">
+                            <img src="./assets/download.jpeg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">Liked Songs</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/8579678.jpg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">Khalid</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/77021ea9155d7bdadf17417609356fa5.jpeg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">The Neighbourhood</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/xxxtentacion-.jpg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">XXXTENTACION</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/Billie-Eilish-Happier-Than-Ever.webp" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">Billie Eilish</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/cigrates.jpeg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">Cigraettes After Sex</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/Jmaes.jpeg" style="height:3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">James Arthur</p>
+                        </div>
+                        <div class="album">
+                            <img src="./assets/khalid.jpg" style="height: 3.8rem; width: 25%; background-size: cover; border-top-left-radius: 0.3rem; border-bottom-left-radius: 0.3rem;" alt="">
+                            <p class="single">American Teen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-main">
+                    <h2>Recently Played</h2>
+                    <div class="cards-container">
+                        <div class="card-main">
+                            <img src="./assets/card1img.jpeg"  alt="" >
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-main">
+                    <h2>Trending Now</h2>
+                    <div class="cards-container">
+                        <div class="card-main">
+                            <img src="./assets/card2img.jpeg"  alt="" >
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                        <div class="card-main">
+                            <img src="./assets/card3img.jpeg"  alt="" >
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                        <div class="card-main">
+                            <img src="./assets/card4img.jpeg"  alt="" >
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="cards-main">
+                    <h2>Featured Charts</h2>
+                    <div class="cards-container">
+                        <div class="card-main">
+                            <img src="./assets/card6img.jpeg"  alt="" >
+                            <p class="card-title">Top Songs - India</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                        <div class="card-main">
+                            <img src="./assets/card5img.jpeg"  alt="" >
+                            <p class="card-title">Top Songs - India</p>
+                            <p class="card-info">Your daily updates of the most played tracks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <hr>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="song">
+                <img src="./assets/album_picture.jpeg" alt="" style="height: 55px; border-radius: .3rem;">
+                <div class="song-detail">
+                    <p class="song-name">Daylight</p>
+                    <p class="song-author">David Kushner</p>
+                </div>
+                <img src="./assets/album_icon1.png" alt="" style="height: 1.7rem; margin-right: 0.9rem;">
+                <img src="./assets/album_icon2.png" alt="" style="height: 2.6rem;">
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./assets/player_icon1.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" alt="" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" value="0">
+                    <span class="tot-time">3:31</span>
+                </div>
+            </div>
+            <div class="control">
+                <img src="./assets/controls_icon1.png" alt=""  class="control-item">
+                <img src="./assets/controld_icon2.png" alt=""class="control-item">
+                <img src="./assets/controls_icon3.png" alt="" class="control-item"style="height: 2rem; margin-top: 0.4rem; opacity: 0.4;">
+                <img src="./assets/controls_icon4.png" alt="" class="control-item" style="height: 1.4rem; margin-top: 0.7rem; opacity: 0.4;">
+                <img src="./assets/controls_icon5.png" alt=""class="control-item">
+                <input type="range" name="" id="" class="sound-bar" min="0" max="100" step="1" value="75">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
